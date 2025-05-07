@@ -6,3 +6,4 @@ outputs/cropped/
 outputs/figures/
 data
 .idea/
+.python-version
