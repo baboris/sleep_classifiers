@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from source.analysis.performance.sleep_metrics import SleepMetrics
+from sleep_classifiers.analysis.performance.sleep_metrics import SleepMetrics
 
 
 class TestSleepMetrics(TestCase):

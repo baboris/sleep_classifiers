@@ -3,9 +3,9 @@ from unittest import TestCase
 import numpy as np
 from sklearn.metrics import roc_curve, precision_recall_curve
 
-from source.analysis.performance.raw_performance import RawPerformance
-from source.analysis.performance.curve_performance_builder import CurvePerformanceBuilder
-from source.analysis.setup.sleep_label import SleepWakeLabel
+from sleep_classifiers.analysis.performance.raw_performance import RawPerformance
+from sleep_classifiers.analysis.performance.curve_performance_builder import CurvePerformanceBuilder
+from sleep_classifiers.analysis.setup.sleep_label import SleepWakeLabel
 
 
 class TestCurvePerformanceBuilder(TestCase):

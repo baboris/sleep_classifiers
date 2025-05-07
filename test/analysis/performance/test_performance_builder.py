@@ -2,9 +2,9 @@ from unittest import TestCase
 import numpy as np
 from sklearn.metrics import precision_score, auc, roc_curve, cohen_kappa_score
 
-from source.analysis.performance.performance_builder import PerformanceBuilder
-from source.analysis.performance.raw_performance import RawPerformance
-from source.analysis.performance.epoch_performance import SleepWakePerformance
+from sleep_classifiers.analysis.performance.performance_builder import PerformanceBuilder
+from sleep_classifiers.analysis.performance.raw_performance import RawPerformance
+from sleep_classifiers.analysis.performance.epoch_performance import SleepWakePerformance
 from test.test_helper import TestHelper
 
 

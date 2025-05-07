@@ -1,8 +1,8 @@
 from unittest import TestCase
 
 import numpy as np
-from source.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
-from source.preprocessing.interval import Interval
+from sleep_classifiers.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
+from sleep_classifiers.preprocessing.interval import Interval
 
 
 class TestActivityCountCollection(TestCase):

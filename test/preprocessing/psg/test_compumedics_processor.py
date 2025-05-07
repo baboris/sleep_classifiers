@@ -2,12 +2,12 @@ from unittest import TestCase, mock
 
 from mock import mock_open, MagicMock
 
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.psg.compumedics_processor import CompumedicsProcessor
-from source.preprocessing.psg.psg_file_type import PSGFileType
-from source.preprocessing.psg.report_summary import ReportSummary
-from source.preprocessing.psg.stage_item import StageItem
-from source.sleep_stage import SleepStage
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.psg.compumedics_processor import CompumedicsProcessor
+from sleep_classifiers.preprocessing.psg.psg_file_type import PSGFileType
+from sleep_classifiers.preprocessing.psg.report_summary import ReportSummary
+from sleep_classifiers.preprocessing.psg.stage_item import StageItem
+from sleep_classifiers.sleep_stage import SleepStage
 from test.test_helper import TestHelper
 
 

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from source.analysis.setup.feature_type import FeatureType
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
 
 
 class TestFeatureType(TestCase):

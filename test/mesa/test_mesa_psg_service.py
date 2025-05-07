@@ -2,7 +2,7 @@ from unittest import TestCase, mock
 
 from mock import MagicMock
 
-from source.mesa.mesa_psg_service import MesaPSGService
+from sleep_classifiers.mesa.mesa_psg_service import MesaPSGService
 
 
 class TestMesaPSGService(TestCase):

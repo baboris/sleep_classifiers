@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from source.sleep_stage import SleepStage
+from sleep_classifiers.sleep_stage import SleepStage
 
 
 class TestSleepStage(TestCase):

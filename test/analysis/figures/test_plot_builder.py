@@ -5,14 +5,14 @@ import mock
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 
-from source.analysis.classification.classifier_summary import ClassifierSummary
-from source.analysis.figures.performance_plot_builder import PerformancePlotBuilder
-from source.analysis.performance.curve_performance import ROCPerformance, PrecisionRecallPerformance
-from source.analysis.performance.raw_performance import RawPerformance
-from source.analysis.setup.attributed_classifier import AttributedClassifier
-from source.analysis.setup.feature_type import FeatureType
-from source.constants import Constants
-from source.analysis.figures.curve_plot_builder import CurvePlotBuilder
+from sleep_classifiers.analysis.classification.classifier_summary import ClassifierSummary
+from sleep_classifiers.analysis.figures.performance_plot_builder import PerformancePlotBuilder
+from sleep_classifiers.analysis.performance.curve_performance import ROCPerformance, PrecisionRecallPerformance
+from sleep_classifiers.analysis.performance.raw_performance import RawPerformance
+from sleep_classifiers.analysis.setup.attributed_classifier import AttributedClassifier
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.analysis.figures.curve_plot_builder import CurvePlotBuilder
 
 
 class TestPlotBuilder(TestCase):

@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from source.analysis.setup.feature_type import FeatureType
-from source.analysis.setup.feature_set_service import FeatureSetService
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
+from sleep_classifiers.analysis.setup.feature_set_service import FeatureSetService
 import seaborn as sns
 
 

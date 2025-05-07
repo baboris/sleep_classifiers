@@ -3,9 +3,9 @@ from unittest.mock import MagicMock
 
 from sklearn.ensemble import RandomForestClassifier
 
-from source.analysis.classification.classifier_service import ClassifierService
-from source.analysis.setup.data_split import DataSplit
-from source.analysis.performance.raw_performance import RawPerformance
+from sleep_classifiers.analysis.classification.classifier_service import ClassifierService
+from sleep_classifiers.analysis.setup.data_split import DataSplit
+from sleep_classifiers.analysis.performance.raw_performance import RawPerformance
 
 import numpy as np
 

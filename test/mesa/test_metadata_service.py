@@ -1,6 +1,6 @@
 from unittest import TestCase, mock
 
-from source.mesa.metadata_service import MetadataService
+from sleep_classifiers.mesa.metadata_service import MetadataService
 from mock import mock_open
 
 

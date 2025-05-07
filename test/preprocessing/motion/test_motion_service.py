@@ -1,11 +1,11 @@
 from unittest import TestCase, mock
 import numpy as np
 
-from source import utils
-from source.constants import Constants
-from source.preprocessing.interval import Interval
-from source.preprocessing.motion.motion_collection import MotionCollection
-from source.preprocessing.motion.motion_service import MotionService
+from sleep_classifiers import utils
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.preprocessing.interval import Interval
+from sleep_classifiers.preprocessing.motion.motion_collection import MotionCollection
+from sleep_classifiers.preprocessing.motion.motion_service import MotionService
 from test.test_helper import TestHelper
 
 

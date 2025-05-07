@@ -5,9 +5,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 
-from source import utils
-from source.analysis.setup.attributed_classifier import AttributedClassifier
-from source.analysis.setup.feature_type import FeatureType
+from sleep_classifiers import utils
+from sleep_classifiers.analysis.setup.attributed_classifier import AttributedClassifier
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
 from test.test_helper import TestHelper
 
 import numpy as np

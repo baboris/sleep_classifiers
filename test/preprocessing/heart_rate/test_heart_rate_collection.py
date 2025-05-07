@@ -1,8 +1,8 @@
 from unittest import TestCase
 import numpy as np
 
-from source.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
-from source.preprocessing.interval import Interval
+from sleep_classifiers.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
+from sleep_classifiers.preprocessing.interval import Interval
 
 
 class TestHeartRateCollection(TestCase):

@@ -1,9 +1,9 @@
 from unittest import TestCase, mock
 
-from source import utils
-from source.constants import Constants
-from source.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
-from source.preprocessing.activity_count.activity_count_service import ActivityCountService
+from sleep_classifiers import utils
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
+from sleep_classifiers.preprocessing.activity_count.activity_count_service import ActivityCountService
 import numpy as np
 
 from test.test_helper import TestHelper
@@ -42,7 +42,7 @@ class TestActivityCountService(TestCase):
     @mock.patch('source.preprocessing.activity_count.activity_count_service.os')
     def test_build_activity_counts(self, mock_os):
         expected_argument = 'matlab -nodisplay -nosplash -nodesktop -r \"run(\'' + str(
-            utils.get_project_root()) + '/source/make_counts.m\'); exit;\"'
+            utils.get_project_root()) + '/sleep_classifiers/make_counts.m\'); exit;\"'
 
         ActivityCountService.build_activity_counts()
 

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from source.analysis.setup.sleep_label import SleepWakeLabel, ThreeClassLabel
+from sleep_classifiers.analysis.setup.sleep_label import SleepWakeLabel, ThreeClassLabel
 
 
 class TestSleepLabel(TestCase):

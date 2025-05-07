@@ -1,7 +1,7 @@
 from unittest import TestCase
 import numpy as np
 
-from source.analysis.performance.raw_performance import RawPerformance
+from sleep_classifiers.analysis.performance.raw_performance import RawPerformance
 
 
 class TestRawPerformance(TestCase):

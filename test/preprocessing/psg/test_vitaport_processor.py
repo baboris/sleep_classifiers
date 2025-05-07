@@ -1,12 +1,12 @@
 from unittest import TestCase, mock
 from mock import mock_open
 
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.psg.psg_file_type import PSGFileType
-from source.preprocessing.psg.report_summary import ReportSummary
-from source.preprocessing.psg.stage_item import StageItem
-from source.preprocessing.psg.vitaport_processor import VitaportProcessor
-from source.sleep_stage import SleepStage
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.psg.psg_file_type import PSGFileType
+from sleep_classifiers.preprocessing.psg.report_summary import ReportSummary
+from sleep_classifiers.preprocessing.psg.stage_item import StageItem
+from sleep_classifiers.preprocessing.psg.vitaport_processor import VitaportProcessor
+from sleep_classifiers.sleep_stage import SleepStage
 from test.test_helper import TestHelper
 
 

@@ -1,8 +1,8 @@
 from unittest import TestCase
 import numpy as np
 
-from source.analysis.setup.feature_type import FeatureType
-from source.analysis.setup.subject import Subject
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
+from sleep_classifiers.analysis.setup.subject import Subject
 
 
 class TestSubject(TestCase):

@@ -1,8 +1,8 @@
 from unittest import TestCase
 import numpy as np
 
-from source.preprocessing.motion.motion_collection import MotionCollection
-from source.preprocessing.interval import Interval
+from sleep_classifiers.preprocessing.motion.motion_collection import MotionCollection
+from sleep_classifiers.preprocessing.interval import Interval
 
 
 class TestMotionCollection(TestCase):

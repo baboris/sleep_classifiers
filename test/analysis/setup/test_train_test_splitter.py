@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from source.analysis.setup.data_split import DataSplit
-from source.analysis.setup.train_test_splitter import TrainTestSplitter
+from sleep_classifiers.analysis.setup.data_split import DataSplit
+from sleep_classifiers.analysis.setup.train_test_splitter import TrainTestSplitter
 from test_helper import TestHelper
 
 

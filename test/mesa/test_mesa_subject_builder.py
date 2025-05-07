@@ -1,12 +1,12 @@
 from unittest import TestCase, mock
 
-from source.mesa.mesa_psg_service import MesaPSGService
-from source.mesa.mesa_subject_builder import MesaSubjectBuilder
+from sleep_classifiers.mesa.mesa_psg_service import MesaPSGService
+from sleep_classifiers.mesa.mesa_subject_builder import MesaSubjectBuilder
 
 import numpy as np
 
-from source.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
-from source.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
+from sleep_classifiers.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
+from sleep_classifiers.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
 
 
 class TestMesaSubjectBuilder(TestCase):

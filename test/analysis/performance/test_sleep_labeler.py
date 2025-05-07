@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from source.analysis.setup.sleep_labeler import SleepLabeler
+from sleep_classifiers.analysis.setup.sleep_labeler import SleepLabeler
 import numpy as np
 
 

@@ -1,12 +1,12 @@
 from unittest import TestCase, mock
 
-from source import utils
-from source.constants import Constants
-from source.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
-from source.preprocessing.heart_rate.heart_rate_service import HeartRateService
+from sleep_classifiers import utils
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
+from sleep_classifiers.preprocessing.heart_rate.heart_rate_service import HeartRateService
 import numpy as np
 
-from source.preprocessing.interval import Interval
+from sleep_classifiers.preprocessing.interval import Interval
 from test.test_helper import TestHelper
 
 

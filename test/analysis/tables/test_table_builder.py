@@ -4,13 +4,13 @@ from unittest.mock import call
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 
-from source.analysis.classification.classifier_summary import ClassifierSummary
-from source.analysis.performance.performance_summarizer import PerformanceSummarizer
-from source.analysis.performance.raw_performance import RawPerformance
-from source.analysis.performance.epoch_performance import SleepWakePerformance
-from source.analysis.setup.attributed_classifier import AttributedClassifier
-from source.analysis.setup.feature_type import FeatureType
-from source.analysis.tables.table_builder import TableBuilder
+from sleep_classifiers.analysis.classification.classifier_summary import ClassifierSummary
+from sleep_classifiers.analysis.performance.performance_summarizer import PerformanceSummarizer
+from sleep_classifiers.analysis.performance.raw_performance import RawPerformance
+from sleep_classifiers.analysis.performance.epoch_performance import SleepWakePerformance
+from sleep_classifiers.analysis.setup.attributed_classifier import AttributedClassifier
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
+from sleep_classifiers.analysis.tables.table_builder import TableBuilder
 
 
 class TestTableBuilder(TestCase):

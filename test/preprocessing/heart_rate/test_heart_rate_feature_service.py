@@ -1,10 +1,10 @@
 from unittest import TestCase, mock
 from unittest.mock import MagicMock
 import numpy as np
-from source.constants import Constants
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
-from source.preprocessing.heart_rate.heart_rate_feature_service import HeartRateFeatureService
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.heart_rate.heart_rate_collection import HeartRateCollection
+from sleep_classifiers.preprocessing.heart_rate.heart_rate_feature_service import HeartRateFeatureService
 
 
 class TestHeartRateFeatureService(TestCase):

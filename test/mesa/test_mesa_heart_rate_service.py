@@ -3,7 +3,7 @@ from unittest import TestCase, mock
 from mock import MagicMock
 import numpy as np
 
-from source.mesa.mesa_heart_rate_service import MesaHeartRateService
+from sleep_classifiers.mesa.mesa_heart_rate_service import MesaHeartRateService
 
 
 class TestMesaHeartRateService(TestCase):

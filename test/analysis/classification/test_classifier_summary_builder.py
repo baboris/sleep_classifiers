@@ -3,11 +3,11 @@ from unittest.mock import call
 
 from sklearn.linear_model import LogisticRegression
 
-from source.analysis.classification.classifier_summary_builder import SleepWakeClassifierSummaryBuilder
-from source.analysis.performance.raw_performance import RawPerformance
-from source.analysis.setup.attributed_classifier import AttributedClassifier
-from source.analysis.setup.data_split import DataSplit
-from source.analysis.setup.feature_type import FeatureType
+from sleep_classifiers.analysis.classification.classifier_summary_builder import SleepWakeClassifierSummaryBuilder
+from sleep_classifiers.analysis.performance.raw_performance import RawPerformance
+from sleep_classifiers.analysis.setup.attributed_classifier import AttributedClassifier
+from sleep_classifiers.analysis.setup.data_split import DataSplit
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
 
 import numpy as np
 

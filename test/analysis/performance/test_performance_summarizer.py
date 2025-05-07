@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from source.analysis.performance.performance_summarizer import PerformanceSummarizer
-from source.analysis.performance.epoch_performance import SleepWakePerformance
+from sleep_classifiers.analysis.performance.performance_summarizer import PerformanceSummarizer
+from sleep_classifiers.analysis.performance.epoch_performance import SleepWakePerformance
 from test_helper import TestHelper
 
 

@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from source.preprocessing.psg.psg_file_type import PSGFileType
-from source.preprocessing.psg.report_summary import ReportSummary
-from source.preprocessing.time_service import TimeService
+from sleep_classifiers.preprocessing.psg.psg_file_type import PSGFileType
+from sleep_classifiers.preprocessing.psg.report_summary import ReportSummary
+from sleep_classifiers.preprocessing.time_service import TimeService
 
 
 class TestTimeService(TestCase):

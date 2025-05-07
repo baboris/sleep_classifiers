@@ -2,10 +2,10 @@ from unittest import TestCase, mock
 from unittest.mock import MagicMock
 import numpy as np
 
-from source.constants import Constants
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.psg.psg_label_service import PSGLabelService
-from source.preprocessing.psg.psg_service import PSGService
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.psg.psg_label_service import PSGLabelService
+from sleep_classifiers.preprocessing.psg.psg_service import PSGService
 
 
 class TestPSGLabelService(TestCase):

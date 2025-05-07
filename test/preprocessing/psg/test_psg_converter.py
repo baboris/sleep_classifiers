@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from source.preprocessing.psg.psg_converter import PSGConverter
-from source.sleep_stage import SleepStage
+from sleep_classifiers.preprocessing.psg.psg_converter import PSGConverter
+from sleep_classifiers.sleep_stage import SleepStage
 
 
 class TestPSGConverter(TestCase):

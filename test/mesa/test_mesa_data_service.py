@@ -1,7 +1,7 @@
 from unittest import TestCase, mock
 from unittest.mock import call
 
-from source.mesa.mesa_data_service import MesaDataService
+from sleep_classifiers.mesa.mesa_data_service import MesaDataService
 
 
 class TestMesaDataService(TestCase):

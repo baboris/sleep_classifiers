@@ -1,7 +1,7 @@
 from unittest import TestCase
 import numpy as np
 
-from source.analysis.performance.sleep_metrics_calculator import SleepMetricsCalculator
+from sleep_classifiers.analysis.performance.sleep_metrics_calculator import SleepMetricsCalculator
 
 
 class TestSleepMetricsCalculator(TestCase):

@@ -1,10 +1,10 @@
 from unittest import TestCase
 
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.interval import Interval
-from source.preprocessing.psg.psg_raw_data_collection import PSGRawDataCollection
-from source.preprocessing.psg.stage_item import StageItem
-from source.sleep_stage import SleepStage
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.interval import Interval
+from sleep_classifiers.preprocessing.psg.psg_raw_data_collection import PSGRawDataCollection
+from sleep_classifiers.preprocessing.psg.stage_item import StageItem
+from sleep_classifiers.sleep_stage import SleepStage
 from test.test_helper import TestHelper
 import numpy as np
 

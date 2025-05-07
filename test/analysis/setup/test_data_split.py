@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from source.analysis.setup.data_split import DataSplit
+from sleep_classifiers.analysis.setup.data_split import DataSplit
 
 
 class TestDataSplit(TestCase):

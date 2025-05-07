@@ -1,10 +1,10 @@
 from unittest import TestCase, mock
 
-from source import utils
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.feature_builder import FeatureBuilder
-from source.preprocessing.psg.psg_service import PSGService
-from source.preprocessing.raw_data_processor import RawDataProcessor
+from sleep_classifiers import utils
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.feature_builder import FeatureBuilder
+from sleep_classifiers.preprocessing.psg.psg_service import PSGService
+from sleep_classifiers.preprocessing.raw_data_processor import RawDataProcessor
 from test.test_helper import TestHelper
 
 

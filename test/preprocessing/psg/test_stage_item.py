@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.psg.stage_item import StageItem
-from source.sleep_stage import SleepStage
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.psg.stage_item import StageItem
+from sleep_classifiers.sleep_stage import SleepStage
 
 
 class TestStageItem(TestCase):

@@ -2,7 +2,7 @@ from unittest import TestCase
 
 import numpy as np
 
-from source.analysis.performance.curve_performance import ROCPerformance, PrecisionRecallPerformance
+from sleep_classifiers.analysis.performance.curve_performance import ROCPerformance, PrecisionRecallPerformance
 
 
 class TestROCPerformance(TestCase):

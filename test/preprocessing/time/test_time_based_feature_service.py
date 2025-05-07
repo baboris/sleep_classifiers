@@ -1,8 +1,8 @@
 from unittest import TestCase, mock
 from unittest.mock import MagicMock
 import numpy as np
-from source.constants import Constants
-from source.preprocessing.time.time_based_feature_service import TimeBasedFeatureService
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.preprocessing.time.time_based_feature_service import TimeBasedFeatureService
 
 
 class TestTimeBasedFeatureSetService(TestCase):

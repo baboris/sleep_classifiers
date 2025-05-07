@@ -2,11 +2,11 @@ from unittest import TestCase, mock
 from unittest.mock import MagicMock, call
 
 import numpy as np
-from source.constants import Constants
-from source.preprocessing.activity_count.activity_count_feature_service import ActivityCountFeatureService
-from source.preprocessing.activity_count.activity_count_service import ActivityCountService
-from source.preprocessing.epoch import Epoch
-from source.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
+from sleep_classifiers.constants import Constants
+from sleep_classifiers.preprocessing.activity_count.activity_count_feature_service import ActivityCountFeatureService
+from sleep_classifiers.preprocessing.activity_count.activity_count_service import ActivityCountService
+from sleep_classifiers.preprocessing.epoch import Epoch
+from sleep_classifiers.preprocessing.activity_count.activity_count_collection import ActivityCountCollection
 
 
 class TestActivityCountFeatureService(TestCase):

@@ -1,9 +1,9 @@
 from unittest import TestCase, mock
 import numpy as np
 
-from source.analysis.setup.feature_type import FeatureType
-from source.analysis.setup.subject import Subject
-from source.analysis.setup.subject_builder import SubjectBuilder
+from sleep_classifiers.analysis.setup.feature_type import FeatureType
+from sleep_classifiers.analysis.setup.subject import Subject
+from sleep_classifiers.analysis.setup.subject_builder import SubjectBuilder
 from test.test_helper import TestHelper
 
 

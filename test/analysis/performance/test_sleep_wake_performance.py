@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from source.analysis.performance.epoch_performance import SleepWakePerformance
+from sleep_classifiers.analysis.performance.epoch_performance import SleepWakePerformance
 
 
 class TestSleepWakePerformance(TestCase):

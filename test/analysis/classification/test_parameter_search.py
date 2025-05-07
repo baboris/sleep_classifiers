@@ -6,8 +6,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 
-from source.analysis.classification.parameter_search import ParameterSearch
-from source.analysis.setup.attributed_classifier import AttributedClassifier
+from sleep_classifiers.analysis.classification.parameter_search import ParameterSearch
+from sleep_classifiers.analysis.setup.attributed_classifier import AttributedClassifier
 
 import numpy as np
 

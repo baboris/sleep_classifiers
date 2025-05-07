@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from sklearn.neighbors import KNeighborsClassifier
 
-from source.analysis.setup.attributed_classifier import AttributedClassifier
+from sleep_classifiers.analysis.setup.attributed_classifier import AttributedClassifier
 
 
 class TestAttributedClassifier(TestCase):

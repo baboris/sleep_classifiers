@@ -2,7 +2,7 @@ from unittest import TestCase, mock
 
 from mock import mock_open, call
 import numpy as np
-from source.mesa.mesa_actigraphy_service import MesaActigraphyService
+from sleep_classifiers.mesa.mesa_actigraphy_service import MesaActigraphyService
 
 
 class TestMesaActigraphyService(TestCase):
