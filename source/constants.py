@@ -1,4 +1,5 @@
 from source import utils
+from pathlib import Path
 
 
 class Constants(object):
@@ -13,8 +14,10 @@ class Constants(object):
     SECONDS_PER_DAY = 3600 * 24
     SECONDS_PER_HOUR = 3600
     VERBOSE = True
-    CROPPED_FILE_PATH = utils.get_project_root().joinpath('outputs/cropped/')
-    FEATURE_FILE_PATH = utils.get_project_root().joinpath('outputs/features/')
-    FIGURE_FILE_PATH = utils.get_project_root().joinpath('outputs/figures/')
+    DATA_PATH = Path('/path/to/data')
+    OUTPUT_PATH = Path('/path/to/output')
+    CROPPED_FILE_PATH = OUTPUT_PATH / 'cropped/'
+    FEATURE_FILE_PATH = OUTPUT_PATH / 'features/'
+    FIGURE_FILE_PATH = OUTPUT_PATH / 'figures/'
     LOWER_BOUND = -0.2
     MATLAB_PATH = '/Applications/MATLAB_R2019a.app/bin/matlab'  # Replace with your MATLAB path

@@ -47,5 +47,5 @@ class HeartRateService(object):
 
     @staticmethod
     def get_raw_file_path(subject_id):
-        heart_rate_dir = utils.get_project_root().joinpath('data/heart_rate/')
-        return heart_rate_dir.joinpath(subject_id + '_heartrate.txt')
+        data_root = Constants.DATA_PATH
+        return data_root.joinpath('heart_rate/' + subject_id + '_heartrate.txt')

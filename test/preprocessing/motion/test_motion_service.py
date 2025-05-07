@@ -84,7 +84,7 @@ class TestMotionService(TestCase):
 
     def test_get_raw_file_path(self):
         subject_id = 'subject1'
-        motion_dir = utils.get_project_root().joinpath('data/motion/')
+        motion_dir = Constants.DATA_PATH.joinpath('motion/')
 
         file_path = MotionService.get_raw_file_path(subject_id)
 

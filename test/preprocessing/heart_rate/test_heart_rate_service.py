@@ -86,7 +86,7 @@ class TestHeartRateService(TestCase):
 
     def test_get_raw_file_path(self):
         subject_id = 'subject1'
-        heart_rate_dir = utils.get_project_root().joinpath('data/heart_rate/')
+        heart_rate_dir = Constants.DATA_PATH.joinpath('heart_rate/')
 
         file_path = HeartRateService.get_raw_file_path(subject_id)
 
